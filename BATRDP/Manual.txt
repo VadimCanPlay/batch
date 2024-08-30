@@ -1,0 +1,25 @@
+Usage:
+
+1. Search in start menu CMD (just press the win key and type cmd)
+2. Go to the location of the folder thats with the batch file by using this command:
+
+cd "download folder"
+
+The default downloads folder is located in C:\Users\"ur username"\Downloads
+
+So for me it would be this:
+
+cd C:\Users\VadimCanPlay\Downloads
+
+3. Now we are in the folder with the batch file (if not, download the .bat file), to connect to somebody we need their ip adress or hostname (you can type hostname in cmd)
+
+To get someones IP Adress, you can use this URL in a VM or your PC device: https://api.ipify.org/?format=json OR https://api.ipify.org/?format=html
+
+To trick someone, you can use a free tool called Grabify.
+
+Now that we have our IP, we can use this command:
+
+BATRTP.bat <ip> <user> <password>
+
+If any of these are wrong, it will not work
+RUNNING IT NORMALLY WONT WORK EITHER

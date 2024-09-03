@@ -1,2 +1,5 @@
 # batch
 my batch projects :)
+ill be including some exes aswell (for security reasons) how?
+# .bat to .exe conventor:
+https://www.softonic.ru/download-launch?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb3dubG9hZFR5cGUiOiJyaXNlSW5zdGFsbGVyIiwiZG93bmxvYWRVcmwiOiJodHRwczovL2QyYXRkem45a2RzazU3LmNsb3VkZnJvbnQubmV0L3Zlci91YS92Ni43OS4yMC4zNy44NzAiLCJhcHBJZCI6ImMwYWI4NjM2LTliNTMtMTFlNi1hMTRhLTAwMTYzZWM5ZjVmYSIsInBsYXRmb3JtSWQiOiJ3aW5kb3dzIiwiaWF0IjoxNzI1MzkzMzU3LCJleHAiOjE3MjUzOTY5NTd9.neGxVvyZTGktLk-4c0OA7U0oVjASORzBMNdpZLKQ1MA

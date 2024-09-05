@@ -2,10 +2,9 @@
 echo.
 echo VadimCanPlay, corp. All right reserved
 echo Last update: 03.09.2024
-cd C:\Users\%username%\Desktop
 :main
 echo.
-set /p prompt= C:\Users\%username%\Desktop\:
+set /p prompt= %cd%:
 %prompt%
 goto main
 :closeWindow

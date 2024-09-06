@@ -2,6 +2,7 @@
 title File Explorer
 :main
 tree
+dir
 echo.
 echo    Guide: (CASE SENSETIVE!)
 echo     moveLoc - change location

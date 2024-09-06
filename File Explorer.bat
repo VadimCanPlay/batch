@@ -1,6 +1,7 @@
 @echo off
 title File Explorer
 :main
+cls
 tree
 dir
 echo.

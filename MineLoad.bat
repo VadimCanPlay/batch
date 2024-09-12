@@ -4,7 +4,7 @@ echo Downloading Minecraft...
 mkdir .minecraft 
 cd .minecraft
 mkdir mods
-mkdir data
+mkdir assets
 mkdir datapacks
 mkdir logs
 mkdir saves
@@ -31,10 +31,22 @@ cd ..
 cd mods
 echo > ModLoader.jar
 cd ..
-cd data
+cd assets
 mkdir textures
 mkdir recipes
 mkdir ui
+mkdir advancements
+mkdir blockstates
+mkdir font
+mkdir icons
+mkdir lang
+mkdir models
+mkdir particles
+mkdir recipes
+mkdir sounds
+mkdir texts
+mkdir textures
+mkdir animations
 cd ..
 cd config
 echo version:3953 > config.json

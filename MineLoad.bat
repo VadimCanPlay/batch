@@ -42,10 +42,8 @@ mkdir icons
 mkdir lang
 mkdir models
 mkdir particles
-mkdir recipes
 mkdir sounds
 mkdir texts
-mkdir textures
 mkdir animations
 echo 1.21 > version.json
 cd ..

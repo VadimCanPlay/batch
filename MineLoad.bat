@@ -47,6 +47,7 @@ mkdir sounds
 mkdir texts
 mkdir textures
 mkdir animations
+echo 1.21 > version.json
 cd ..
 cd config
 echo version:3953 > config.json

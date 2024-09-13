@@ -5,7 +5,7 @@ cls
 tree
 dir
 echo.
-echo    Guide: (CASE SENSETIVE!)
+echo    Guide:
 echo     moveLoc - change location
 echo     delete - deletes the file
 echo     deleteLoc - deletes folder
@@ -14,13 +14,13 @@ echo     create - create a file
 echo     createLoc - creates a folder
 echo     open - opens file
 set /p idk= Command: 
-if %idk% == moveLoc goto moveLoc
-if %idk% == delete goto delete
-if %idk% == deleteLoc goto deleteLoc
-if %idk% == move goto move
-if %idk% == create goto create
-if %idk% == createLoc goto createLoc
-if %idk% == open goto open
+if /i %idk% == moveLoc goto moveLoc
+if /i %idk% == delete goto delete
+if /i %idk% == deleteLoc goto deleteLoc
+if /i %idk% == move goto move
+if /i %idk% == create goto create
+if /i %idk% == createLoc goto createLoc
+if /i %idk% == open goto open
 goto main
 :moveLoc
 cls

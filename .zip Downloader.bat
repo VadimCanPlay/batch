@@ -55,7 +55,7 @@ for %%f in ("%link%") do set "ext=%%~xf"
 
 REM Check if the file extension is .zip
 if /i "%ext%" == ".zip" (
-    curl -L -o downloaded.zip %link%
+    curl -L -o downloaded.zip %link% >nul 2>&1
     echo    Downloaded!
 ) else (
     echo    Error: Only .zip files are supported!

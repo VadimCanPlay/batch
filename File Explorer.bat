@@ -1,4 +1,4 @@
-@echo off
+o@echo off
 title File Explorer
 :main
 cls
@@ -8,6 +8,7 @@ echo.
 echo    Guide: (CASE SENSETIVE!)
 echo     moveLoc - change location
 echo     delete - deletes the file
+echo     deleteLoc - deletes folder
 echo     move - moves a file to the folder
 echo     create - create a file
 echo     createLoc - creates a folder
@@ -15,6 +16,7 @@ echo     open - opens file
 set /p idk= Command: 
 if %idk% == moveLoc goto moveLoc
 if %idk% == delete goto delete
+if %idk% == deleteLoc goto deleteLoc
 if %idk% == move goto move
 if %idk% == create goto create
 if %idk% == createLoc goto createLoc
@@ -35,6 +37,14 @@ echo    Enter file name (Location right now: %cd%)
 echo.
 set /p delete=
 del %delete%
+goto main
+:deleteLoc
+cls
+echo.
+echo    Enter folder name (Location right now: %cd%)
+echo.
+set /p deleteLoc=
+rmdir /s /q %deleteLoc%
 goto main
 :move
 cls

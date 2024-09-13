@@ -1,4 +1,4 @@
-o@echo off
+@echo off
 title File Explorer
 :main
 cls

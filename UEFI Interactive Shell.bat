@@ -17,7 +17,7 @@ echo %Yellow%      BLK0:%Reset% %White%Alias(s)%Reset%
 echo           PciRoot(0x0)/Pci (0xB,0x0)/Sata(0x0)
 echo %Yellow%      BLK1:%Reset% %White%Alias(s)%Reset%
 echo           PciRoot(0x0)/Pci (0xB,0x0)/Sata(0x0)
-echo Press %White%ESC%Reset% in 5 seconds to skip startup.nsh or any other key to continue
+echo Press %White%ESC%Reset% in 5 seconds to skip %Yellow%startup.nsh%Reset% or any other key to continue
 
 :main
 set /p prompt= %Yellow%Shell^>%Reset%

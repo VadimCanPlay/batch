@@ -10,8 +10,8 @@ set "Reset=[0m"
 
 :: Output colored text
 echo UEFI Interactive Shell v2.2
-echo %White%EDK II%Reset%
-echo %White%UEFI v2.70 (EDK II, 0x00010000)%Reset%
+echo EDK II
+echo UEFI v2.70 (EDK II, 0x00010000)
 echo %Yellow%Mapping table%Reset%
 echo %Yellow%      BLK0:%Reset% %White%Alias(s)%Reset%
 echo           PciRoot(0x0)/Pci (0xB,0x0)/Sata(0x0)

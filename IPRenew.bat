@@ -1,4 +1,5 @@
 @echo off
+title IPRenew
 :main
 cls
 echo.

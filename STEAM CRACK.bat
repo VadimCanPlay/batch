@@ -2,8 +2,7 @@
 title Steam (Crack)
 set location=none
 :question
-set /p location= Enter the name of the user (in start menu): 
-set location=C:\Users\%location%\Desktop
+set location=C:\Users\%username%\Desktop
 color 2
 :home
 cls

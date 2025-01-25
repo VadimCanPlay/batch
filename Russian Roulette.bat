@@ -2,7 +2,7 @@
 title Russian Roulette
 echo.
 echo   Start the game?
-echo  1) Yes  2) no
+echo    1) Yes  2) No
 choice /c 12 >nul 2>&1
 if %errorlevel% == 1 goto game
 if %errorlevel% == 2 exit
@@ -19,10 +19,10 @@ if %random_number% == 1 (
     echo Game over. Guess what happens now.
     echo.
     timeout /t 3 /nobreak
-	shutdown /s /f /t 0
+	shutdown /s /f /t 0 >nul 2>&1
 ) else (
 	echo *click*
-	echo You survived.
-	echo.
+	echo You survived. Click any key to continue
+	pause >nul
 	goto game
 )
